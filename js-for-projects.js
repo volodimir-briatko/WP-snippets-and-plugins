@@ -189,7 +189,7 @@ var pop_ul;
 if ( document.querySelector('.projects__filters') ){
   let url_string, client, creative,  locat2='';
 
-  locat = 'https://houseofcampaigns.com/projects/'; 
+  locat = '/projects/'; 
 
   document.querySelectorAll('.projects__filters input[type="checkbox"]').forEach((element) => {  
         
